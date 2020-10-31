@@ -1,6 +1,6 @@
 <script>
 	let max_view_count = 2;
-	let max_view_hours = 24;
+	let max_view_hours = 48;
 	let secret_text = "";
 
 	function save_secret(event) {
@@ -11,7 +11,7 @@
 <main>
 	<h1>segredo</h1>
 	<p>
-		An open source app to share secrets.		
+		An open source app to share secrets.
 	</p>
 	<div>
 		<textarea cols="100" rows="15" bind:value={secret_text}/>
